@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Definimos la codificación de caracteres como UTF-8 para soportar una amplia gama de caracteres especiales -->
+    <meta charset="UTF-8">
+    
+    <!-- Configuración de la vista para que la página sea responsiva en dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title>Ejemplos de JavaScript Mas</title>
+    
+    <!-- Enlazamos a la hoja de estilos externa para aplicar CSS a la página -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Título principal de la página -->
+    <h1>Ejemplos de JavaScript</h1>
+    
+    <!-- Sección dedicada a los ejemplos de ciclos e iteraciones -->
+    <section id="ciclos">
+        <!-- Subtítulo para la sección de ciclos -->
+        <h2>Ciclos e Iteraciones</h2>
+        
+        <!-- Botón que el usuario puede presionar para ejecutar el código JavaScript de ciclos -->
+        <button id="btn-ciclos">Ejecutar Ciclos</button>
+        
+        <!-- Elemento donde se mostrará el resultado de los ejemplos de ciclos -->
+        <p id="resultado-ciclos"></p>
+    </section>
+    
+    <!-- Sección dedicada a los ejemplos de funciones -->
+    <section id="funciones">
+        <!-- Subtítulo para la sección de funciones -->
+        <h2>Funciones</h2>
+        
+        <!-- Botón que el usuario puede presionar para ejecutar el código JavaScript de funciones -->
+        <button id="btn-funciones">Ejecutar Funciones</button>
+        
+        <!-- Elemento donde se mostrará el resultado de los ejemplos de funciones -->
+        <p id="resultado-funciones"></p>
+    </section>
+
+    <!-- Sección dedicada a los ejemplos de operadores -->
+    <section id="operadores">
+        <!-- Subtítulo para la sección de operadores -->
+        <h2>Operadores</h2>
+        
+        <!-- Botón que el usuario puede presionar para ejecutar el código JavaScript de operadores -->
+        <button id="btn-operadores">Ejecutar Operadores</button>
+        
+        <!-- Elemento donde se mostrará el resultado de los ejemplos de operadores -->
+        <p id="resultado-operadores"></p>
+    </section>
+
+    <!-- Sección dedicada a factorial -->
+    <section id="factorial">
+        <!-- Subtítulo para la sección de operadores -->
+        <h2>Factorial</h2>
+        
+        <!-- Botón que el usuario puede presionar para ejecutar el código JavaScript de operadores -->
+        <button id="btn-factorial">Ejecutar factorial</button>
+        
+        <input type="text" id="numero" >
+        <!-- Elemento donde se mostrará el resultado de los ejemplos de operadores -->
+        <p id="resultado"></p>
+    </section>
+    <body>
+        <label for="numero-inicial">Introduce el numero inicial:</label>
+        <input type="number" id="numero-inicial" name="numero-inicial">
+        <br>
+        <label for="numero-final">Introduce el numero final:</label>
+        <input type="number" id="numero-final" name="numero-final">
+        <button type="button" onclick="procesarNumero()">Enviar</button>
+        <div id="resultado"></div>
+    
+        <script src="j.js">
+          
+        </script>
+
+    <script></script>
+
+    <!-- Inclusión de archivos JavaScript que contienen el código para cada sección -->
+    <!-- Estos scripts manejan los eventos de clic en los botones y actualizan el contenido de los elementos <p> correspondientes -->
+    <script src="ciclos.js"></script>
+    <script src="funciones.js"></script>
+    <script src="operadores.js"></script>
+    <script src="factorial.js"></script>
+
+</body>
+</html>

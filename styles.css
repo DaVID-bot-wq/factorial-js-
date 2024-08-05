@@ -1,0 +1,45 @@
+/* Estilos generales para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;  /* Define la fuente principal de la página como Arial, 
+    y en caso de que no esté disponible, usa una fuente sans-serif genérica */
+    margin: 20px;/* Agrega un margen de 20 píxeles alrededor de todo el contenido del body */
+    background-color: #f4f4f4; /* Establece un color de fondo claro para toda la página */
+}
+
+/* Estilos para las secciones de la página */
+section {
+
+    background: #fff;    /* Establece un fondo blanco para las secciones */
+    border: 1px solid #ddd;/* Agrega un borde gris claro alrededor de las secciones */
+    border-radius: 8px;  /* Redondea las esquinas del borde de las secciones con un radio de 8 píxeles */
+    padding: 20px;/* Agrega un relleno interno de 20 píxeles dentro de las secciones */
+    margin-bottom: 20px;/* Agrega un margen inferior de 20 píxeles entre las secciones */
+}
+
+/* Estilos para los subtítulos dentro de las secciones */
+h2 {
+    color: #333;/* Define el color del texto de los subtítulos como un gris oscuro */
+}
+
+/* Estilos para los botones */
+button {
+    border: 2px solid #007BFF;/* Define un borde de 2 píxeles de grosor con un color azul */
+    color: #fff;/* Define el color del texto del botón como blanco */
+    background-color: #007BFF;/* Define el color de fondo del botón como azul */
+    padding: 10px 20px; /* Agrega un relleno interno de 10 píxeles arriba y abajo, y 20 píxeles a los lados */
+    border-radius: 5px;/* Redondea las esquinas del botón con un radio de 5 píxeles */
+    cursor: pointer;/* Cambia el cursor a un puntero cuando el usuario pasa el ratón sobre el botón */
+    font-size: 16px;/* Establece el tamaño de la fuente dentro del botón a 16 píxeles */
+}
+
+/* Estilos para el botón cuando el ratón pasa sobre él */
+button:hover {
+    background-color: #0056b3;/* Cambia el color de fondo del botón a un azul más oscuro cuando el ratón pasa sobre él */
+}
+
+/* Estilos para los párrafos */
+p {
+    margin-top: 10px;/* Agrega un margen superior de 10 píxeles a los párrafos */
+    font-size: 16px;/* Define el tamaño de la fuente de los párrafos como 16 píxeles */
+    color: #333; /* Define el color del texto de los párrafos como un gris oscuro */
+}
